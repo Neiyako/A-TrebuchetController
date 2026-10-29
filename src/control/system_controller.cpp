@@ -1,4 +1,4 @@
-#include "control/system_controller.h"
+#include "system_controller.h"
 
 SystemController::SystemController()
     : state_(SystemState::Init) {}

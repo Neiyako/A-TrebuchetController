@@ -1,6 +1,6 @@
 #pragma once
 #include <Arduino.h>
-#include "control/safety_guard.h"
+#include "safety_guard.h"
 
 enum class SystemState : uint8_t {
     Init,

@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include "config/config.h"
-#include "sensors/infrared.h"
-#include "control/system_controller.h"
+#include "src/config/config.h"
+#include "src/sensors/infrared.h"
+#include "src/control/system_controller.h"
 
 SystemController controller;
 uint32_t lastReportMs = 0;

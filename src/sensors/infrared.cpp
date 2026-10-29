@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#include "config/config.h"
-#include "sensors/infrared.h"
+#include "../config/config.h"
+#include "infrared.h"
 
 namespace {
 uint8_t rawLevel = HIGH;

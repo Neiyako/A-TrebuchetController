@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/tty.usbserial-1130",
+    "sketch": "TrebuchetController.ino",
+    "output": "./build"
+}
