@@ -14,7 +14,8 @@ constexpr uint32_t kReportIntervalMs = 500;
 constexpr uint8_t kTestButtonPin = 3;
 constexpr uint8_t kResetButtonPin = 4;
 
-// 通道分配暂定：D5 = MG995，D6 = SG90 #1，D9 = SG90 #2。
+// Sensor Shield V5.0：舵机只取 S/G，V 针不接；舵机电源走独立 5V/10A 母线。
+// 接口基线通道：D5 = MG995，D6 = SG90 #1，D9 = SG90 #2；改动先更新规范文档。
 constexpr uint8_t kServo1Pin = 5;
 constexpr uint8_t kServo2Pin = 6;
 constexpr uint8_t kServo3Pin = 9;
